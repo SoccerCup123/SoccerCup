@@ -78,18 +78,16 @@
     </head>
      <body id="page-top">
  
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg menu text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a href="?i=home" class="navbar-brand">Soccer Cup</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                          <li id="funionario"  class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="<?php echo $linkFuncionario ?>"><?php echo $nomeCampoFuncionario ?></a></li>
-                          <li id ="movimentacao"  class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="<?php echo $linkMovimentacao ?>"><?php echo $nomeCampoMovimentacao ?></a></li>
-                          <div id="btnSairLogin"class="nav-item mx-0 mx-lg-1" ><a class="nav-link py-3 px-0 px-lg-3 rounded" onclik  href="<?php echo $link ?>"><?php echo $nomeCampo ?></a></div>
+                          <div id="btnSairLogin" class="nav-item mx-0 mx-lg-1 text-white" ><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" onclik  href="<?php echo $link ?>"><?php echo $nomeCampo ?></a></div>
                     </ul>
                         
                 </div>
