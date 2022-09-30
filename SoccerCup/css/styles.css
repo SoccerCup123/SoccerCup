@@ -11825,3 +11825,12 @@ html {
 .copyright {
   background-color: #000;
 }
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 1.75rem !important;
+  }
+  .img-hidden {
+    display: none
+  }
+}
