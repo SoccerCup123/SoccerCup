@@ -40,6 +40,17 @@
              </td>
              </td>
            <tr>
+
+
+           <tr class="text-center">
+             <td class="align-middle">10/12/2022 – 13:00h </td>
+             <td class="align-middle">
+               <button type="button" class="btn btn-success mr-lg-3">Votar </button>
+               <span>Argentina vs Brasil</span>
+               <button type="button" class="btn btn-success ml-lg-3">Votar</button>
+             </td>
+             </td>
+           <tr>
          </tbody>
        </table>
 
