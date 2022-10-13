@@ -24,33 +24,13 @@
            <tr class="text-center">
              <td class="align-middle">21/11/2022 – 07:00h </td>
              <td class="align-middle">
-               <button type="button" class="btn btn-success mr-lg-3">Votar </button>
-               <span>Brasil vs França</span>
-               <button type="button" class="btn btn-success ml-lg-3">Votar</button>
+               <button type="button" class="btn btn-success mr-lg-3">Vitoria </button>
+               <span>Brasil</span><button type="button" class="btn btn-success ml-lg-3">Empate</button> <span>França</span>
+               <button type="button" class="btn btn-success ml-lg-3">Vitoria</button>
              </td>
              </td>
            <tr>
 
-           <tr class="text-center">
-             <td class="align-middle">31/11/2022 – 17:00h </td>
-             <td class="align-middle">
-               <button type="button" class="btn btn-success mr-lg-3">Votar </button>
-               <span>Brasil vs Alemanha</span>
-               <button type="button" class="btn btn-success ml-lg-3">Votar</button>
-             </td>
-             </td>
-           <tr>
-
-
-           <tr class="text-center">
-             <td class="align-middle">10/12/2022 – 13:00h </td>
-             <td class="align-middle">
-               <button type="button" class="btn btn-success mr-lg-3">Votar </button>
-               <span>Argentina vs Brasil</span>
-               <button type="button" class="btn btn-success ml-lg-3">Votar</button>
-             </td>
-             </td>
-           <tr>
          </tbody>
        </table>
 
