@@ -5,7 +5,7 @@
                
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <form action="php/varificarLogin.php"  id="contactForm" method="post" data-sb-form-api-token="API_TOKEN">
+                        <form action="php/usuario/verificarLogin.php"  id="contactForm" method="post" data-sb-form-api-token="API_TOKEN">
                        
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="login" name="login" type="text" placeholder="Seu user.."  required />

@@ -3,57 +3,31 @@
 
 
     session_start();
-
-
-
-
-
-
-
+    $id = $_GET['id'];
     // Verifica se a session não for igual a false-->
-    if ((!isset($_SESSION['login']) == false) and (!isset($_SESSION['senha']) == false)) {
+    if (!isset($_SESSION['login']) == false)  {
         $nomeCampo = 'Sair';
-        $nomeCampoFuncionario = 'Funcionários';
-        $nomeCampoMovimentacao = 'Movimentações';
         $link = '?i=logoff';
-        $linkFuncionario = '?i=funcionarios';
-
-        $linkMovimentacao = '?i=movimentacoes';
+        $linkSoccer = 'campeonatos';
     }
 
     // Verifica se a session não for igual a true-->
-    if ((!isset($_SESSION['login']) == true) and (!isset($_SESSION['senha']) == true)) {
+    if (!isset($_SESSION['login']) == true) {
         $nomeCampo = 'LOGIN';
-
-        $nomeCampoFuncionario = '';
-        $nomeCampoMovimentacao = '';
         $link = '?i=login';
-        $linkFuncionario = '';
-        $linkMovimentacao = '';
-
-    ?>
-  <script>
-window.location.replace("https://localhost/nanoincub/index.php?i=login");
-break;
-  </script>
-  <?php
+        $linkSoccer = 'login';
+        if($id != "login" || $id != "cadastroUsuario" ){
+        ?>
+        <script>
+        window.location.replace("http://localhost/SoccerCup/index.php?i=login");
+        break;
+        </script>
+    <?php
+      }
     }
     ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!DOCTYPE html>
+ <!DOCTYPE html>
   <html lang="en">
 
   <head>
@@ -83,7 +57,7 @@ break;
 
     <nav class="navbar navbar-expand-lg menu text-uppercase fixed-top" id="mainNav">
       <div class="container">
-        <a href="?i=home" class="navbar-brand">Soccer Cup</a>
+        <a href="?i=<?php echo $linkSoccer ?>" class="navbar-brand">Soccer Cup</a>
         <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button"
           data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
           aria-expanded="false" aria-label="Toggle navigation">

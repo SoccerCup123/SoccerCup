@@ -17,8 +17,9 @@
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
+                    
                     <td>
-								    <a href="?i=home&id=<?php echo $row_usuario['id'];?>" class="btn  btn-sm " role="button" >
+								    <a href="?i=jogos&id=<?php echo $row_usuario['id'];?>" class="btn  btn-sm " role="button" >
 							      <img   class="img-fluid" src='imagens/<?php  echo  $row_usuario['imagem']; ?>'alt="..." />
                 </div>
             </div>
