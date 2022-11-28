@@ -1,15 +1,12 @@
 <?php
 
-
 session_start();
-
 
 header("Access-Control-Allow-Origin: *"); // erro de cors
 $servername = "localhost";
 $username ="root";
 $passaword = "";
 $db_name ="soccercup";
-
 
 $connect = mysqli_connect($servername,$username,$passaword,$db_name);
 mysqli_set_charset($connect, "utf8");
@@ -19,9 +16,6 @@ if (mysqli_connect_error()){
 	echo "<p>conexao ok</p>".mysqli_connect_error();
 }
 
-
-
-
 $time1     =   $_SESSION['Time1_id'];
 $time2     =   $_SESSION['Time2_id'];
 $idJogo = $_SESSION['Campeonato_id'];
@@ -30,8 +24,6 @@ $ValueFish =              $_GET['v'];
 $ValueText =              $_GET['b']; 
 $idCan     =             $_GET['id']; 
 $hoje = date('Y/m/d ');
-
-
 
 $sql = "INSERT INTO `historicoAposta`(`idTime1`, `idTime2`, `pontos`, `idJogo`, `idUsuario`,`data`,`texto`)
  VALUES ('$time1','$time2','$ValueFish','$idJogo','$userid','$hoje','$ValueText')";

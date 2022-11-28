@@ -1,6 +1,10 @@
-
+<div class="position-relative">
+  <div class="position-absolute top-50 start-50">JOSE</div>
+</div>  
   <section class="page-section portfolio" id="portfolio">
+  
     <table class="table table-striped table-bordered table-hover ">
+    
       <tbody>
         <div class="row justify-content-center">
           <tr class="text-center font-weight-bold ">
@@ -24,7 +28,7 @@
                 </div>
             </div>
           <?php }} ?> 
-          </div>
+        </div>
         </tr> 
       </tbody>
     </table>

@@ -28,7 +28,7 @@
             mysqli_num_rows($resultadoFun) > 0;
             $dadosFun = mysqli_fetch_array($resultadoFun);
             
-            if($login == $dadosFun['login'] &&  $senha== $dadosFun['senha']){
+            if($login == $dadosFun['login'] &&  $senha == $dadosFun['senha']){
                $_SESSION['login'] = $dadosFun['id'] ;
                ?>
                <script>
